@@ -1,2 +1,3 @@
 #!/bin/bash
-python3 $PYCODE
+read PYCODE
+python3 -c $PYCODE
